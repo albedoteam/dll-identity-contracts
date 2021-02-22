@@ -2,7 +2,7 @@
 
 namespace AlbedoTeam.Identity.Contracts.Events
 {
-    public interface UserTypeChanged
+    public interface UserTypeChangedOnUser
     {
         string AccountId { get; set; }
         string UserId { get; set; }

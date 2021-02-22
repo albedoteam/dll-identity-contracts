@@ -1,6 +1,6 @@
 ﻿namespace AlbedoTeam.Identity.Contracts.Commands
 {
-    public interface ChangeUserType
+    public interface ChangeUserTypeOnUser
     {
         string AccountId { get; set; }
         string UserId { get; set; }
