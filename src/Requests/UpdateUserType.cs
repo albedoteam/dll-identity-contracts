@@ -2,10 +2,10 @@
 
 namespace AlbedoTeam.Identity.Contracts.Requests
 {
-    public interface CreateUserType
+    public interface UpdateUserType
     {
         string AccountId { get; set; }
-        Provider Provider { get; set; }
+        string Id { get; set; }
         UsernameFormatType UsernameFormatType { get; set; }
         string UsernameFormatExpression { get; set; }
     }
