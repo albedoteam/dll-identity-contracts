@@ -4,6 +4,6 @@
     {
         None,
         Email,
-        Regex,
+        Regex
     }
 }

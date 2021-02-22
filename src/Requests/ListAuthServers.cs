@@ -4,7 +4,6 @@ namespace AlbedoTeam.Identity.Contracts.Requests
 {
     public interface ListAuthServers
     {
-        string AccountId { get; set; }
         bool ShowDeleted { get; set; }
         int Page { get; set; }
         int PageSize { get; set; }
