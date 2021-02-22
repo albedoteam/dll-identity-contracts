@@ -8,7 +8,7 @@ namespace AlbedoTeam.Identity.Contracts.Responses
     {
         string Id { get; set; }
         string AccountId { get; set; }
-        string Login { get; set; }
+        string Username { get; set; }
         string FirstName { get; set; }
         string LastName { get; set; }
         string Email { get; set; }
