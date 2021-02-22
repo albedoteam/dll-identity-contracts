@@ -1,4 +1,5 @@
-﻿using AlbedoTeam.Identity.Contracts.Common;
+﻿using System.Collections.Generic;
+using AlbedoTeam.Identity.Contracts.Common;
 
 namespace AlbedoTeam.Identity.Contracts.Requests
 {
@@ -8,5 +9,6 @@ namespace AlbedoTeam.Identity.Contracts.Requests
         Provider Provider { get; set; }
         UsernameFormatType UsernameFormatType { get; set; }
         string UsernameFormatExpression { get; set; }
+        List<string> PredefinedGroups { get; set; }
     }
 }

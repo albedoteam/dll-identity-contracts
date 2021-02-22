@@ -11,6 +11,5 @@ namespace AlbedoTeam.Identity.Contracts.Requests
         string LastName { get; set; }
         string Email { get; set; }
         Dictionary<string, string> CustomProfileFields { get; set; }
-        List<string> Groups { get; set; }
     }
 }

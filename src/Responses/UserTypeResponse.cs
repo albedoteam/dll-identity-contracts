@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using AlbedoTeam.Identity.Contracts.Common;
 
 namespace AlbedoTeam.Identity.Contracts.Responses
@@ -10,6 +11,7 @@ namespace AlbedoTeam.Identity.Contracts.Responses
         string DisplayName { get; set; }
         string Name { get; set; }
         string Description { get; set; }
+        List<string> PredefinedGroups { get; set; }
         Provider Provider { get; set; }
 
         DateTime CreatedAt { get; set; }
