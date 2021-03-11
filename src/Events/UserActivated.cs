@@ -8,5 +8,6 @@ namespace AlbedoTeam.Identity.Contracts.Events
         string Id { get; set; }
         DateTime ActivatedAt { get; set; }
         string Reason { get; set; }
+        string ActivationToken { get; set; }
     }
 }
