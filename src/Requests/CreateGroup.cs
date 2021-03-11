@@ -1,8 +1,11 @@
-﻿namespace AlbedoTeam.Identity.Contracts.Requests
+﻿using AlbedoTeam.Identity.Contracts.Common;
+
+namespace AlbedoTeam.Identity.Contracts.Requests
 {
     public interface CreateGroup
     {
         string AccountId { get; set; }
+        Provider Provider { get; set; }
         string Name { get; set; }
         string DisplayName { get; set; }
         string Description { get; set; }
