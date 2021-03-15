@@ -18,6 +18,7 @@ namespace AlbedoTeam.Identity.Contracts.Responses
         List<string> BasicScopes { get; set; }
         bool Active { get; set; }
         Provider Provider { get; set; }
+        string ProviderId { get; set; }
 
         DateTime CreatedAt { get; set; }
         DateTime? UpdatedAt { get; set; }

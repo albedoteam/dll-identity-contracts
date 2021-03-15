@@ -12,6 +12,7 @@ namespace AlbedoTeam.Identity.Contracts.Responses
         string Description { get; set; }
         string IsDefault { get; set; }
         Provider Provider { get; set; }
+        string ProviderId { get; set; }
 
         DateTime CreatedAt { get; set; }
         DateTime? UpdatedAt { get; set; }
