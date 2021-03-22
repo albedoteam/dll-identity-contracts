@@ -19,6 +19,7 @@ namespace AlbedoTeam.Identity.Contracts.Responses
         bool Active { get; set; }
         Provider Provider { get; set; }
         string ProviderId { get; set; }
+        CommunicationRules CommunicationRules { get; set; }
 
         DateTime CreatedAt { get; set; }
         DateTime? UpdatedAt { get; set; }
