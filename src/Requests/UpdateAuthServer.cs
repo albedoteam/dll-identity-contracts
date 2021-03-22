@@ -6,6 +6,6 @@ namespace AlbedoTeam.Identity.Contracts.Requests
     {
         string AccountId { get; set; }
         string Id { get; set; }
-        CommunicationRules CommunicationRules { get; set; }
+        ICommunicationRules CommunicationRules { get; set; }
     }
 }

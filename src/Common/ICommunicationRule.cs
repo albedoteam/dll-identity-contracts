@@ -2,7 +2,7 @@
 
 namespace AlbedoTeam.Identity.Contracts.Common
 {
-    public interface CommunicationRule
+    public interface ICommunicationRule
     {
         string TemplateId { get; set; }
         Dictionary<string, string> DefaultContentParameters { get; set; }
