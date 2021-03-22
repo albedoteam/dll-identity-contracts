@@ -17,6 +17,8 @@ namespace AlbedoTeam.Identity.Contracts.Responses
         Dictionary<string, string> CustomProfileFields { get; set; }
         List<string> Groups { get; set; }
         Provider Provider { get; set; }
+        string ProviderId { get; set; }
+        string UsernameAtProvider { get; set; }
 
         DateTime CreatedAt { get; set; }
         DateTime? UpdatedAt { get; set; }

@@ -1,10 +1,12 @@
 ﻿using System.Collections.Generic;
+using AlbedoTeam.Identity.Contracts.Common;
 
 namespace AlbedoTeam.Identity.Contracts.Requests
 {
     public interface CreateUser
     {
         string AccountId { get; set; }
+        Provider Provider { get; set; }
         string UserTypeId { get; set; }
         string Username { get; set; }
         string FirstName { get; set; }

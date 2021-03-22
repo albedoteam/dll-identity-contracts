@@ -7,8 +7,9 @@ namespace AlbedoTeam.Identity.Contracts.Requests
     {
         string AccountId { get; set; }
         Provider Provider { get; set; }
-        UsernameFormatType UsernameFormatType { get; set; }
-        string UsernameFormatExpression { get; set; }
+        string Name { get; set; }
+        string DisplayName { get; set; }
+        string Description { get; set; }
         List<string> PredefinedGroups { get; set; }
     }
 }
