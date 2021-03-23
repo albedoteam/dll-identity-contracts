@@ -3,6 +3,6 @@
     public interface GetPasswordRecovery
     {
         string AccountId { get; set; }
-        string Token { get; set; }
+        string ValidationToken { get; set; }
     }
 }

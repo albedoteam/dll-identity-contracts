@@ -2,11 +2,11 @@
 
 namespace AlbedoTeam.Identity.Contracts.Events
 {
-    public interface UserPasswordChangeRequested
+    public interface PasswordRecoveryCreated
     {
         string AccountId { get; set; }
         string Id { get; set; }
-        string Token { get; set; }
-        DateTime RequestedAt { get; set; }
+        string ValidationToken { get; set; }
+        DateTime CreatedAt { get; set; }
     }
 }
