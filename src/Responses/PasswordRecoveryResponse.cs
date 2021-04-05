@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace AlbedoTeam.Identity.Contracts.Responses
+﻿namespace AlbedoTeam.Identity.Contracts.Responses
 {
+    using System;
+
     public interface PasswordRecoveryResponse
     {
         string Id { get; set; }

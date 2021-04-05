@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-
-namespace AlbedoTeam.Identity.Contracts.Common
+﻿namespace AlbedoTeam.Identity.Contracts.Common
 {
+    using System.Collections.Generic;
+
     public interface ICommunicationRule
     {
         string TemplateId { get; set; }

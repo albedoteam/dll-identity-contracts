@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using AlbedoTeam.Identity.Contracts.Common;
-
-namespace AlbedoTeam.Identity.Contracts.Responses
+﻿namespace AlbedoTeam.Identity.Contracts.Responses
 {
+    using System;
+    using System.Collections.Generic;
+    using Common;
+
     public interface UserResponse
     {
         string Id { get; set; }

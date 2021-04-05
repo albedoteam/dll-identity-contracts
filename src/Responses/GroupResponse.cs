@@ -1,8 +1,8 @@
-﻿using System;
-using AlbedoTeam.Identity.Contracts.Common;
-
-namespace AlbedoTeam.Identity.Contracts.Responses
+﻿namespace AlbedoTeam.Identity.Contracts.Responses
 {
+    using System;
+    using Common;
+
     public interface GroupResponse
     {
         string Id { get; set; }

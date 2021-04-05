@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace AlbedoTeam.Identity.Contracts.Events
+﻿namespace AlbedoTeam.Identity.Contracts.Events
 {
+    using System;
+
     public interface GroupRemovedFromUser
     {
         string AccountId { get; set; }

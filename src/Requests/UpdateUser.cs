@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-
-namespace AlbedoTeam.Identity.Contracts.Requests
+﻿namespace AlbedoTeam.Identity.Contracts.Requests
 {
+    using System.Collections.Generic;
+
     public interface UpdateUser
     {
         string AccountId { get; set; }

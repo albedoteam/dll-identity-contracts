@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
-using AlbedoTeam.Identity.Contracts.Common;
-
-namespace AlbedoTeam.Identity.Contracts.Requests
+﻿namespace AlbedoTeam.Identity.Contracts.Requests
 {
+    using System.Collections.Generic;
+    using Common;
+
     public interface CreateUser
     {
         string AccountId { get; set; }

@@ -1,7 +1,7 @@
-﻿using AlbedoTeam.Identity.Contracts.Common;
-
-namespace AlbedoTeam.Identity.Contracts.Requests
+﻿namespace AlbedoTeam.Identity.Contracts.Requests
 {
+    using Common;
+
     public interface CreateAuthServer
     {
         string AccountId { get; set; }

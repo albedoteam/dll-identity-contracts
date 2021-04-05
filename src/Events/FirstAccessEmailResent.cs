@@ -2,10 +2,10 @@
 {
     using System;
 
-    public interface UserPasswordChanged
+    public interface FirstAccessEmailResent
     {
         string AccountId { get; set; }
-        string Id { get; set; }
-        DateTime ChangedAt { get; set; }
+        string UserId { get; set; }
+        DateTime ResentAt { get; set; }
     }
 }
